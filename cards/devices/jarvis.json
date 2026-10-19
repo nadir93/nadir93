@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "jarvis",
-  "updatedAt": "2026-10-19T08:16:08.614Z",
+  "updatedAt": "2026-10-19T08:40:41.990Z",
   "daily": [
     {
       "agent": "all",
@@ -7165,9 +7165,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 2895401,
-      "cacheReadTokens": 174091955,
-      "inputTokens": 1492020,
+      "cacheCreationTokens": 2978682,
+      "cacheReadTokens": 189658988,
+      "inputTokens": 1516207,
       "metadata": {
         "agents": [
           "antigravity",
@@ -7176,12 +7176,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 2553771,
-          "cacheReadTokens": 172438650,
-          "cost": 67.08414399999994,
-          "inputTokens": 1525,
+          "cacheCreationTokens": 2637052,
+          "cacheReadTokens": 188005683,
+          "cost": 71.94088259999991,
+          "inputTokens": 1631,
           "modelName": "claude-opus-5-5",
-          "outputTokens": 618441
+          "outputTokens": 672274
         },
         {
           "cacheCreationTokens": 237742,
@@ -7194,10 +7194,10 @@
         {
           "cacheCreationTokens": 0,
           "cacheReadTokens": 16935,
-          "cost": 1.0088703750000003,
-          "inputTokens": 1332952,
+          "cost": 1.0270098750000003,
+          "inputTokens": 1357033,
           "modelName": "gemini-3.8-flash-low",
-          "outputTokens": 2038
+          "outputTokens": 2059
         },
         {
           "cacheCreationTokens": 0,
@@ -7241,24 +7241,24 @@
         "gemini-3.8-flash-n",
         "gemini-4-argon"
       ],
-      "outputTokens": 674185,
+      "outputTokens": 728039,
       "period": "2026-10-19",
-      "totalCost": 70.76085012499992,
-      "totalTokens": 179153701
+      "totalCost": 75.63572822499994,
+      "totalTokens": 194882056
     }
   ],
   "totals": {
-    "totalTokens": 38263707329,
-    "inputTokens": 74156781,
-    "outputTokens": 157633996,
-    "cacheCreationTokens": 848874076,
-    "cacheReadTokens": 37182693872,
-    "totalCost": 26582.41219812501
+    "totalTokens": 38279435684,
+    "inputTokens": 74180968,
+    "outputTokens": 157687850,
+    "cacheCreationTokens": 848957357,
+    "cacheReadTokens": 37198260905,
+    "totalCost": 26587.28707622501
   },
   "tools": [
     [
       "Claude Code",
-      26528.02371123501
+      26532.89858933501
     ],
     [
       "Codex",
@@ -7268,5 +7268,171 @@
       "Gemini",
       0.5771966499999999
     ]
+  ],
+  "subs": [
+    {
+      "tool": "agy",
+      "src": "~/.gemini",
+      "daily": [
+        {
+          "period": "2026-10-12",
+          "tokens": 3488051,
+          "calls": 67
+        },
+        {
+          "period": "2026-10-13",
+          "tokens": 2774632,
+          "calls": 23
+        },
+        {
+          "period": "2026-10-15",
+          "tokens": 20169443,
+          "calls": 147
+        },
+        {
+          "period": "2026-10-16",
+          "tokens": 1478174,
+          "calls": 111
+        },
+        {
+          "period": "2026-10-17",
+          "tokens": 2599852,
+          "calls": 157
+        },
+        {
+          "period": "2026-10-18",
+          "tokens": 1736557,
+          "calls": 144
+        },
+        {
+          "period": "2026-10-19",
+          "tokens": 2769359,
+          "calls": 143
+        }
+      ]
+    },
+    {
+      "tool": "agy",
+      "src": "~/.agy-jjam/.gemini",
+      "daily": [
+        {
+          "period": "2026-10-07",
+          "tokens": 79069,
+          "calls": 6
+        },
+        {
+          "period": "2026-10-08",
+          "tokens": 158337,
+          "calls": 12
+        },
+        {
+          "period": "2026-10-09",
+          "tokens": 158837,
+          "calls": 12
+        },
+        {
+          "period": "2026-10-10",
+          "tokens": 52913,
+          "calls": 4
+        },
+        {
+          "period": "2026-10-12",
+          "tokens": 5990081,
+          "calls": 137
+        },
+        {
+          "period": "2026-10-13",
+          "tokens": 14101126,
+          "calls": 282
+        },
+        {
+          "period": "2026-10-14",
+          "tokens": 12667205,
+          "calls": 239
+        },
+        {
+          "period": "2026-10-15",
+          "tokens": 2206169,
+          "calls": 116
+        },
+        {
+          "period": "2026-10-16",
+          "tokens": 13081365,
+          "calls": 131
+        },
+        {
+          "period": "2026-10-17",
+          "tokens": 2188617,
+          "calls": 116
+        },
+        {
+          "period": "2026-10-18",
+          "tokens": 1262598,
+          "calls": 75
+        },
+        {
+          "period": "2026-10-19",
+          "tokens": 719513,
+          "calls": 25
+        }
+      ]
+    },
+    {
+      "tool": "agy",
+      "src": "~/.agy-jjam-taek/.gemini",
+      "daily": [
+        {
+          "period": "2026-10-12",
+          "tokens": 11895,
+          "calls": 1
+        }
+      ]
+    },
+    {
+      "tool": "ChatGPT",
+      "src": "~/.cache/codex-image/ledger.jsonl",
+      "daily": [
+        {
+          "period": "2026-09-16",
+          "tokens": 6276,
+          "calls": 8
+        },
+        {
+          "period": "2026-09-18",
+          "tokens": 240854,
+          "calls": 119
+        },
+        {
+          "period": "2026-09-19",
+          "tokens": 115557,
+          "calls": 66
+        },
+        {
+          "period": "2026-10-01",
+          "tokens": 473342,
+          "calls": 128
+        },
+        {
+          "period": "2026-10-02",
+          "tokens": 191571,
+          "calls": 52
+        },
+        {
+          "period": "2026-10-04",
+          "tokens": 101464,
+          "calls": 23
+        },
+        {
+          "period": "2026-10-07",
+          "tokens": 9908,
+          "calls": 2
+        },
+        {
+          "period": "2026-10-16",
+          "tokens": 4121,
+          "calls": 1
+        }
+      ]
+    }
   ]
 }
