@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "jarvis",
-  "updatedAt": "2026-10-19T08:41:32.531Z",
+  "updatedAt": "2026-10-19T08:41:59.834Z",
   "daily": [
     {
       "agent": "all",
@@ -7165,9 +7165,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 2990448,
-      "cacheReadTokens": 192536285,
-      "inputTokens": 1516225,
+      "cacheCreationTokens": 2998769,
+      "cacheReadTokens": 195133533,
+      "inputTokens": 1516237,
       "metadata": {
         "agents": [
           "antigravity",
@@ -7176,12 +7176,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 2648818,
-          "cacheReadTokens": 190882980,
-          "cost": 72.69240199999994,
-          "inputTokens": 1649,
+          "cacheCreationTokens": 2657139,
+          "cacheReadTokens": 193480228,
+          "cost": 73.41148759999996,
+          "inputTokens": 1661,
           "modelName": "claude-opus-5-5",
-          "outputTokens": 676367
+          "outputTokens": 683018
         },
         {
           "cacheCreationTokens": 237742,
@@ -7241,24 +7241,24 @@
         "gemini-3.8-flash-n",
         "gemini-4-argon"
       ],
-      "outputTokens": 732132,
+      "outputTokens": 738783,
       "period": "2026-10-19",
-      "totalCost": 76.38724762499996,
-      "totalTokens": 197775230
+      "totalCost": 77.10633322499997,
+      "totalTokens": 200387462
     }
   ],
   "totals": {
-    "totalTokens": 38282328858,
-    "inputTokens": 74180986,
-    "outputTokens": 157691943,
-    "cacheCreationTokens": 848969123,
-    "cacheReadTokens": 37201138202,
-    "totalCost": 26588.03859562501
+    "totalTokens": 38284941090,
+    "inputTokens": 74180998,
+    "outputTokens": 157698594,
+    "cacheCreationTokens": 848977444,
+    "cacheReadTokens": 37203735450,
+    "totalCost": 26588.75768122501
   },
   "tools": [
     [
       "Claude Code",
-      26533.65010873501
+      26534.369194335013
     ],
     [
       "Codex",
