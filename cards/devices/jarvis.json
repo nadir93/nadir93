@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "jarvis",
-  "updatedAt": "2026-10-19T08:41:59.834Z",
+  "updatedAt": "2026-10-19T08:48:04.778Z",
   "daily": [
     {
       "agent": "all",
@@ -7165,9 +7165,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 2998769,
-      "cacheReadTokens": 195133533,
-      "inputTokens": 1516237,
+      "cacheCreationTokens": 3045523,
+      "cacheReadTokens": 205173425,
+      "inputTokens": 1516291,
       "metadata": {
         "agents": [
           "antigravity",
@@ -7176,12 +7176,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 2657139,
-          "cacheReadTokens": 193480228,
-          "cost": 73.41148759999996,
-          "inputTokens": 1661,
+          "cacheCreationTokens": 2703893,
+          "cacheReadTokens": 203520120,
+          "cost": 76.36547399999998,
+          "inputTokens": 1715,
           "modelName": "claude-opus-5-5",
-          "outputTokens": 683018
+          "outputTokens": 711606
         },
         {
           "cacheCreationTokens": 237742,
@@ -7241,24 +7241,24 @@
         "gemini-3.8-flash-n",
         "gemini-4-argon"
       ],
-      "outputTokens": 738783,
+      "outputTokens": 767371,
       "period": "2026-10-19",
-      "totalCost": 77.10633322499997,
-      "totalTokens": 200387462
+      "totalCost": 80.06031962499996,
+      "totalTokens": 210502750
     }
   ],
   "totals": {
-    "totalTokens": 38284941090,
-    "inputTokens": 74180998,
-    "outputTokens": 157698594,
-    "cacheCreationTokens": 848977444,
-    "cacheReadTokens": 37203735450,
-    "totalCost": 26588.75768122501
+    "totalTokens": 38295056378,
+    "inputTokens": 74181052,
+    "outputTokens": 157727182,
+    "cacheCreationTokens": 849024198,
+    "cacheReadTokens": 37213775342,
+    "totalCost": 26591.71166762501
   },
   "tools": [
     [
       "Claude Code",
-      26534.369194335013
+      26537.323180735013
     ],
     [
       "Codex",
@@ -7277,37 +7277,51 @@
         {
           "period": "2026-10-12",
           "tokens": 3488051,
-          "calls": 67
+          "calls": 67,
+          "cost": 0,
+          "unpriced": 3488051
         },
         {
           "period": "2026-10-13",
           "tokens": 2774632,
-          "calls": 23
+          "calls": 23,
+          "cost": 0,
+          "unpriced": 2774632
         },
         {
           "period": "2026-10-15",
           "tokens": 20169443,
-          "calls": 147
+          "calls": 147,
+          "cost": 2.4711893999999988,
+          "unpriced": 0
         },
         {
           "period": "2026-10-16",
           "tokens": 1478174,
-          "calls": 111
+          "calls": 111,
+          "cost": 1.0155543,
+          "unpriced": 0
         },
         {
           "period": "2026-10-17",
           "tokens": 2599852,
-          "calls": 157
+          "calls": 157,
+          "cost": 1.6664230750000002,
+          "unpriced": 0
         },
         {
           "period": "2026-10-18",
           "tokens": 1736557,
-          "calls": 144
+          "calls": 144,
+          "cost": 1.3102567500000004,
+          "unpriced": 0
         },
         {
           "period": "2026-10-19",
           "tokens": 2769359,
-          "calls": 143
+          "calls": 143,
+          "cost": 1.4999569749999995,
+          "unpriced": 0
         }
       ]
     },
@@ -7318,62 +7332,86 @@
         {
           "period": "2026-10-07",
           "tokens": 79069,
-          "calls": 6
+          "calls": 6,
+          "cost": 0.059796749999999996,
+          "unpriced": 0
         },
         {
           "period": "2026-10-08",
           "tokens": 158337,
-          "calls": 12
+          "calls": 12,
+          "cost": 0.11950575000000001,
+          "unpriced": 0
         },
         {
           "period": "2026-10-09",
           "tokens": 158837,
-          "calls": 12
+          "calls": 12,
+          "cost": 0.12013275,
+          "unpriced": 0
         },
         {
           "period": "2026-10-10",
           "tokens": 52913,
-          "calls": 4
+          "calls": 4,
+          "cost": 0.03991275,
+          "unpriced": 0
         },
         {
           "period": "2026-10-12",
           "tokens": 5990081,
-          "calls": 137
+          "calls": 137,
+          "cost": 1.4144877000000007,
+          "unpriced": 0
         },
         {
           "period": "2026-10-13",
           "tokens": 14101126,
-          "calls": 282
+          "calls": 282,
+          "cost": 4.776059025000001,
+          "unpriced": 0
         },
         {
           "period": "2026-10-14",
           "tokens": 12667205,
-          "calls": 239
+          "calls": 239,
+          "cost": 4.762704900000001,
+          "unpriced": 0
         },
         {
           "period": "2026-10-15",
           "tokens": 2206169,
-          "calls": 116
+          "calls": 116,
+          "cost": 1.1641601249999998,
+          "unpriced": 0
         },
         {
           "period": "2026-10-16",
           "tokens": 13081365,
-          "calls": 131
+          "calls": 131,
+          "cost": 3.1316643,
+          "unpriced": 0
         },
         {
           "period": "2026-10-17",
           "tokens": 2188617,
-          "calls": 116
+          "calls": 116,
+          "cost": 1.386209725,
+          "unpriced": 37649
         },
         {
           "period": "2026-10-18",
           "tokens": 1262598,
-          "calls": 75
+          "calls": 75,
+          "cost": 0.7717520999999999,
+          "unpriced": 0
         },
         {
           "period": "2026-10-19",
           "tokens": 719513,
-          "calls": 25
+          "calls": 25,
+          "cost": 0.5650069500000001,
+          "unpriced": 0
         }
       ]
     },
@@ -7384,7 +7422,9 @@
         {
           "period": "2026-10-12",
           "tokens": 11895,
-          "calls": 1
+          "calls": 1,
+          "cost": 0.00911325,
+          "unpriced": 0
         }
       ]
     },
@@ -7395,42 +7435,58 @@
         {
           "period": "2026-09-16",
           "tokens": 6276,
-          "calls": 8
+          "calls": 8,
+          "cost": 0.15438,
+          "unpriced": 0
         },
         {
           "period": "2026-09-18",
           "tokens": 240854,
-          "calls": 119
+          "calls": 119,
+          "cost": 3.431214,
+          "unpriced": 0
         },
         {
           "period": "2026-09-19",
           "tokens": 115557,
-          "calls": 66
+          "calls": 66,
+          "cost": 1.866985999999999,
+          "unpriced": 0
         },
         {
           "period": "2026-10-01",
           "tokens": 473342,
-          "calls": 128
+          "calls": 128,
+          "cost": 6.085625999999998,
+          "unpriced": 0
         },
         {
           "period": "2026-10-02",
           "tokens": 191571,
-          "calls": 52
+          "calls": 52,
+          "cost": 2.495134,
+          "unpriced": 0
         },
         {
           "period": "2026-10-04",
           "tokens": 101464,
-          "calls": 23
+          "calls": 23,
+          "cost": 1.5563460000000002,
+          "unpriced": 0
         },
         {
           "period": "2026-10-07",
           "tokens": 9908,
-          "calls": 2
+          "calls": 2,
+          "cost": 0.169816,
+          "unpriced": 0
         },
         {
           "period": "2026-10-16",
           "tokens": 4121,
-          "calls": 1
+          "calls": 1,
+          "cost": 0.078244,
+          "unpriced": 0
         }
       ]
     }
