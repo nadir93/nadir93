@@ -1,7 +1,7 @@
 {
   "version": 1,
   "device": "jarvis",
-  "updatedAt": "2026-11-05T23:15:09.243Z",
+  "updatedAt": "2026-11-06T23:15:08.399Z",
   "daily": [
     {
       "agent": "all",
@@ -8516,9 +8516,9 @@
     },
     {
       "agent": "all",
-      "cacheCreationTokens": 645055,
-      "cacheReadTokens": 21387549,
-      "inputTokens": 1640243,
+      "cacheCreationTokens": 4378108,
+      "cacheReadTokens": 204474395,
+      "inputTokens": 1814997,
       "metadata": {
         "agents": [
           "antigravity",
@@ -8528,12 +8528,12 @@
       },
       "modelBreakdowns": [
         {
-          "cacheCreationTokens": 281748,
-          "cacheReadTokens": 21285281,
-          "cost": 8.092628200000005,
-          "inputTokens": 232,
+          "cacheCreationTokens": 4014801,
+          "cacheReadTokens": 204329587,
+          "cost": 85.63735339999987,
+          "inputTokens": 2047,
           "modelName": "claude-opus-5-5",
-          "outputTokens": 79033
+          "outputTokens": 632242
         },
         {
           "cacheCreationTokens": 282925,
@@ -8546,26 +8546,18 @@
         {
           "cacheCreationTokens": 0,
           "cacheReadTokens": 0,
-          "cost": 0.8347672499999998,
-          "inputTokens": 1054788,
+          "cost": 0.84233325,
+          "inputTokens": 1109171,
           "modelName": "gemini-3.8-flash-low",
-          "outputTokens": 11647
-        },
-        {
-          "cacheCreationTokens": 0,
-          "cacheReadTokens": 27125,
-          "cost": 0.36743850000000006,
-          "inputTokens": 115537,
-          "modelName": "claude-sonnet-4-6",
-          "outputTokens": 846
+          "outputTokens": 2772
         },
         {
           "cacheCreationTokens": 0,
           "cacheReadTokens": 0,
-          "cost": 0.3618405,
-          "inputTokens": 464359,
+          "cost": 0.49609800000000015,
+          "inputTokens": 617119,
           "modelName": "gemini-3.8-flash-medium",
-          "outputTokens": 1079
+          "outputTokens": 2120
         },
         {
           "cacheCreationTokens": 80382,
@@ -8574,6 +8566,14 @@
           "inputTokens": 20,
           "modelName": "claude-haiku-4-5-20251001",
           "outputTokens": 29630
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 69665,
+          "cost": 0.27838350000000006,
+          "inputTokens": 81333,
+          "modelName": "claude-sonnet-4-6",
+          "outputTokens": 899
         },
         {
           "cacheCreationTokens": 0,
@@ -8593,24 +8593,89 @@
         "gemini-3.8-flash-medium",
         "gpt-6-astra"
       ],
-      "outputTokens": 137878,
+      "outputTokens": 683306,
       "period": "2026-11-06",
-      "totalCost": 11.325418749999999,
-      "totalTokens": 23813265
+      "totalCost": 88.92291244999987,
+      "totalTokens": 211357571
+    },
+    {
+      "agent": "all",
+      "cacheCreationTokens": 320216,
+      "cacheReadTokens": 139504,
+      "inputTokens": 1748216,
+      "metadata": {
+        "agents": [
+          "antigravity",
+          "claude"
+        ]
+      },
+      "modelBreakdowns": [
+        {
+          "cacheCreationTokens": 276352,
+          "cacheReadTokens": 30367,
+          "cost": 1.2563266999999998,
+          "inputTokens": 6,
+          "modelName": "claude-sonnet-5-5",
+          "outputTokens": 14787
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 44409,
+          "cost": 0.9017549250000001,
+          "inputTokens": 1104359,
+          "modelName": "gemini-3.8-flash-low",
+          "outputTokens": 18680
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.4309552499999999,
+          "inputTokens": 551522,
+          "modelName": "gemini-3.8-flash-medium",
+          "outputTokens": 1156
+        },
+        {
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 50310,
+          "cost": 0.30452999999999997,
+          "inputTokens": 92319,
+          "modelName": "claude-sonnet-4-6",
+          "outputTokens": 832
+        },
+        {
+          "cacheCreationTokens": 43864,
+          "cacheReadTokens": 14418,
+          "cost": 0.17003479999999999,
+          "inputTokens": 10,
+          "modelName": "claude-haiku-4-5-20251001",
+          "outputTokens": 16171
+        }
+      ],
+      "modelsUsed": [
+        "claude-haiku-4-5-20251001",
+        "claude-sonnet-4-6",
+        "claude-sonnet-5-5",
+        "gemini-3.8-flash-low",
+        "gemini-3.8-flash-medium"
+      ],
+      "outputTokens": 51626,
+      "period": "2026-11-07",
+      "totalCost": 3.063601675,
+      "totalTokens": 2263051
     }
   ],
   "totals": {
-    "totalTokens": 43753086740,
-    "inputTokens": 120069836,
-    "outputTokens": 173501377,
-    "cacheCreationTokens": 935414271,
-    "cacheReadTokens": 42519773468,
-    "totalCost": 28565.152606185016
+    "totalTokens": 43942894097,
+    "inputTokens": 121992806,
+    "outputTokens": 174098431,
+    "cacheCreationTokens": 939467540,
+    "cacheReadTokens": 42702999818,
+    "totalCost": 28645.81370156002
   },
   "tools": [
     [
       "Claude Code",
-      28510.626779295017
+      28591.28787467002
     ],
     [
       "Codex",
@@ -8796,10 +8861,17 @@
         },
         {
           "period": "2026-11-06",
-          "tokens": 1677921,
-          "calls": 222,
-          "cost": 1.1966077499999999,
-          "unpriced": 143508
+          "tokens": 1889844,
+          "calls": 253,
+          "cost": 1.3384312499999982,
+          "unpriced": 151897
+        },
+        {
+          "period": "2026-11-07",
+          "tokens": 1867076,
+          "calls": 240,
+          "cost": 1.3327101749999994,
+          "unpriced": 143461
         }
       ]
     },
@@ -9012,9 +9084,16 @@
         },
         {
           "period": "2026-11-06",
-          "tokens": 1909394,
-          "calls": 109,
-          "cost": 1.0738767750000002,
+          "tokens": 2462629,
+          "calls": 138,
+          "cost": 1.517328425,
+          "unpriced": 0
+        },
+        {
+          "period": "2026-11-07",
+          "tokens": 1172396,
+          "calls": 92,
+          "cost": 0.7329476249999998,
           "unpriced": 0
         }
       ]
